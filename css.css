@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+body{
+    background:linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);    
+}
+.logo{
+    width: 240px;
+   
+}
+main{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 10rem;
+    margin-bottom: 10rem;
+}
+.container{
+    width: 700px;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    font-size: 2rem;
+    
+}
+.phone{
+    background-color:black;
+    border-radius: 1rem;
+    display: grid;
+    height: 500px;
+    width: 350px;
+}
+.screen{
+    justify-self: center;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    width: calc(100% - 1rem);
+    height:calc(100% - 1rem);
+    align-self: center;
+    border: 1px solid black;
+    display: grid;
+    padding: 0 1rem 1rem 1rem;
+}
+.topBar{
+    background-color: black;
+    height: 1.5rem;
+    width: calc(100% - 50%);
+    justify-self: center;
+    display: flex;
+    align-items: center;
+    border-radius: 0 0 1rem 1rem;
+}
+.circle{
+    background-color: rgb(20, 8, 61);
+    height: 1.2rem;
+    width: 1.2rem;
+    border-radius: 50%;
+    margin-left: 1rem;
+    align-items: center;
+}
+.inner-circle{
+    background-color: rgb(35, 43, 88);
+    height: 0.4rem;
+    width: 0.4rem;
+    border-radius: 50%;
+    margin: 0.5rem 0 0 0.5rem;
+}
+h3{
+    justify-self: center;
+    align-self: flex-end;
+}
+#user-input{
+    border: 2px solid transparent;
+    width: calc(100% - 20%);
+    height: 4rem;
+    padding: 1rem;
+    color:black;
+    font-size: 1rem;
+    font-weight: bold;
+    justify-self: center;
+    border-radius: 1rem;
+    align-self: center;
+}
+#results-div{
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btns{
+    height: 5rem;
+    justify-self: center;
+    display: flex;
+    flex-direction: row;
+    gap: 9rem;
+}
+#check-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+#clear-btn{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+.low-bar{
+    background-color: black;
+    height: 1rem;
+    width: calc(100% - 50%);
+    justify-self: center;
+    border-radius: 1rem;
+    align-self: flex-end;
+    margin-bottom: 0;
+}
